@@ -25,6 +25,9 @@
     <Compile Include="projectEuler\Problem0001.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="projectEuler\Problem0002.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pythonExcise.py" />
   </ItemGroup>
   <ItemGroup>
