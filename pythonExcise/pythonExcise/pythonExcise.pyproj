@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b48802ae-b409-455c-88bc-e8a6356fc8cb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pythonExcise.py</StartupFile>
+    <StartupFile>basics\exception.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,16 +22,32 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="projectEuler\Problem0001.py">
+    <Compile Include="basics\exception.py" />
+    <Compile Include="basics\if.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="projectEuler\Problem0002.py">
+    <Compile Include="basics\sliceCopy.py" />
+    <Compile Include="projectEuler\done\Problem0011.py" />
+    <Compile Include="projectEuler\done\Problem0009.py" />
+    <Compile Include="projectEuler\done\Problem0008.py" />
+    <Compile Include="projectEuler\done\Problem0007.py" />
+    <Compile Include="projectEuler\done\Problem0006.py" />
+    <Compile Include="projectEuler\done\Problem0005.py" />
+    <Compile Include="projectEuler\done\Problem0004.py" />
+    <Compile Include="projectEuler\done\Problem0003.py" />
+    <Compile Include="projectEuler\done\Problem0001.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="projectEuler\done\Problem0002.py" />
+    <Compile Include="projectEuler\Problem.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pythonExcise.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="basics\" />
     <Folder Include="projectEuler\" />
+    <Folder Include="projectEuler\done\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
