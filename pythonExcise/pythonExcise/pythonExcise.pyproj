@@ -22,8 +22,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="basics\class1.py" />
+    <Compile Include="basics\class.py" />
     <Compile Include="basics\exception.py" />
     <Compile Include="basics\if.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basics\datetimeTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basics\loggingTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basics\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basics\setTest.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="basics\sliceCopy.py" />
