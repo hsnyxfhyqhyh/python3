@@ -34,7 +34,7 @@
     <Compile Include="basics\loggingTest.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="basics\module1.py">
+    <Compile Include="basics\csvTest.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="basics\setTest.py">
@@ -62,6 +62,10 @@
     <Folder Include="basics\" />
     <Folder Include="projectEuler\" />
     <Folder Include="projectEuler\done\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="basics\stock.csv" />
+    <Content Include="basics\stockoutput.csv" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
