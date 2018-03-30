@@ -41,6 +41,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="basics\sliceCopy.py" />
+    <Compile Include="Headfirst\chap01\odd.py" />
     <Compile Include="projectEuler\done\Problem0011.py" />
     <Compile Include="projectEuler\done\Problem0009.py" />
     <Compile Include="projectEuler\done\Problem0008.py" />
@@ -60,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="basics\" />
+    <Folder Include="Headfirst\" />
+    <Folder Include="Headfirst\chap01\" />
     <Folder Include="projectEuler\" />
     <Folder Include="projectEuler\done\" />
   </ItemGroup>
