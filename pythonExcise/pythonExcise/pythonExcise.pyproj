@@ -43,10 +43,22 @@
     <Compile Include="basics\lambdaTest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="basics\mapFilterReducer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basics\mapFilterReducer2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basics\mapFilterReducer3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="basics\setTest.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="basics\sliceCopy.py" />
+    <Compile Include="basics\SortingTest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Headfirst\chap01\odd.py" />
     <Compile Include="Headfirst\chap01\other.py" />
     <Compile Include="projectEuler\done\Problem0011.py" />

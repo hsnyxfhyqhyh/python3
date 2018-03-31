@@ -15,10 +15,20 @@
 
 #   Alternatively, it returns f(f(f(a1,a2), a3), a4),.......an)
 
-# Example: 
+# Example: multiply all numbers in a list. 
 from functools import reduce
-# multiply all numbers in a list. 
 
 data=[2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+
+# use of reduce function. 
 multiplier = lambda x, y: x * y
 print (reduce(multiplier, data))
+
+#direct use of for loop
+product = 1
+for x in data: 
+    product = product * x
+
+print(product)
+
+# obviously the for loop is much easier to read. 
