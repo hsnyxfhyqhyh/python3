@@ -37,11 +37,18 @@
     <Compile Include="basics\csvTest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="basics\jsonTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basics\lambdaTest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="basics\setTest.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="basics\sliceCopy.py" />
     <Compile Include="Headfirst\chap01\odd.py" />
+    <Compile Include="Headfirst\chap01\other.py" />
     <Compile Include="projectEuler\done\Problem0011.py" />
     <Compile Include="projectEuler\done\Problem0009.py" />
     <Compile Include="projectEuler\done\Problem0008.py" />
@@ -67,8 +74,12 @@
     <Folder Include="projectEuler\done\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="basics\data_output.json" />
     <Content Include="basics\stock.csv" />
     <Content Include="basics\stockoutput.csv" />
+    <Content Include="basics\data_input.json" />
+    <Content Include="basics\_readme.txt" />
+    <Content Include="Headfirst\_readme.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
