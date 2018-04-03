@@ -80,12 +80,17 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pythonExcise.py" />
+    <Compile Include="webapps\helloflask.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="basics\" />
+    <Folder Include="db\" />
     <Folder Include="Headfirst\" />
     <Folder Include="Headfirst\chap01\" />
     <Folder Include="math\" />
+    <Folder Include="webapps\" />
     <Folder Include="projectEuler\" />
     <Folder Include="projectEuler\done\" />
   </ItemGroup>
@@ -95,6 +100,7 @@
     <Content Include="basics\stockoutput.csv" />
     <Content Include="basics\data_input.json" />
     <Content Include="basics\_readme.txt" />
+    <Content Include="db\example.db" />
     <Content Include="Headfirst\_readme.txt" />
   </ItemGroup>
   <PropertyGroup>
