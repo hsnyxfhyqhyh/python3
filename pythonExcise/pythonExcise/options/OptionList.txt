@@ -4,18 +4,15 @@
 ## When running the batch , a date of the target week should be an input parameter, otherwise use the nextweek as default
 ## Line starts with "##" will be ignored, same for blank line. 
 
-## Friday options -- weekday =5
+## Friday options -- weekday =4
 
-Stock=AAPL#CurrentPrice=116#PriceDifference=6#HalfDollarFlag=false#WeekDay=5
-Stock=FB#CurrentPrice=116#PriceDifference=6#HalfDollarFlag=false#WeekDay=5
-Stock=GLD#CurrentPrice=111#PriceDifference=6#HalfDollarFlag=false#WeekDay=5
-Stock=BABA#CurrentPrice=88#PriceDifference=6#HalfDollarFlag=false#WeekDay=5
-Stock=XBI#CurrentPrice=60#PriceDifference=6#HalfDollarFlag=false#WeekDay=5
+Stock=AAPL#CurrentPrice=116#PriceDifference=6#HalfDollarFlag=False#WeekDay=4
+Stock=FB#CurrentPrice=116#PriceDifference=6#HalfDollarFlag=False#WeekDay=4
+Stock=GLD#CurrentPrice=111#PriceDifference=6#HalfDollarFlag=False#WeekDay=4
 
-Stock=SPY#CurrentPrice=223#PriceDifference=6#HalfDollarFlag=true#WeekDay=5
-Stock=GDX#CurrentPrice=21#PriceDifference=6#HalfDollarFlag=true#WeekDay=5
-Stock=XOP#CurrentPrice=41#PriceDifference=6#HalfDollarFlag=true#WeekDay=5
+Stock=SPY#CurrentPrice=223#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
+Stock=GDX#CurrentPrice=21#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
 
-## Wednesday options -- weekday =3
+## Wednesday options -- weekday =2
 
-Stock=SPY#CurrentPrice=223#PriceDifference=6#HalfDollarFlag=true#WeekDay=3
+Stock=SPY#CurrentPrice=223#PriceDifference=6#HalfDollarFlag=True#WeekDay=2

@@ -97,6 +97,7 @@
     <Folder Include="Headfirst\chap01\" />
     <Folder Include="math\" />
     <Folder Include="options\" />
+    <Folder Include="options\output\" />
     <Folder Include="webapps\" />
     <Folder Include="projectEuler\" />
     <Folder Include="projectEuler\done\" />
@@ -110,7 +111,6 @@
     <Content Include="db\example.db" />
     <Content Include="Headfirst\_readme.txt" />
     <Content Include="options\OptionList.txt" />
-    <Content Include="options\WatchList.java" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
