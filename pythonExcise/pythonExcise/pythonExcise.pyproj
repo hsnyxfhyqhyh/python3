@@ -66,6 +66,30 @@
     <Compile Include="math\statisticsTest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="mooc\week01\01_Graph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week01\02_Stars.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week01\03_repeat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week01\03_TempConverter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week01\04_keyword_no_program.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week01\05_evalTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week02\01_pythonDraw.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week02\02-Turtle-Z.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="options\Option.py">
       <SubType>Code</SubType>
     </Compile>
@@ -96,6 +120,9 @@
     <Folder Include="Headfirst\" />
     <Folder Include="Headfirst\chap01\" />
     <Folder Include="math\" />
+    <Folder Include="mooc\" />
+    <Folder Include="mooc\week02\" />
+    <Folder Include="mooc\week01\" />
     <Folder Include="options\" />
     <Folder Include="options\output\" />
     <Folder Include="webapps\" />
