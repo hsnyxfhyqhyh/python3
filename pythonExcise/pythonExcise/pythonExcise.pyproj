@@ -90,6 +90,27 @@
     <Compile Include="mooc\week02\02-Turtle-Z.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="mooc\week03\01_unicodeTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week03\02_unicodeTest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week04\01-if.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week04\02_except.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week04\03-BMI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week04\04-for.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mooc\week04\05_random.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="options\Option.py">
       <SubType>Code</SubType>
     </Compile>
@@ -121,6 +142,8 @@
     <Folder Include="Headfirst\chap01\" />
     <Folder Include="math\" />
     <Folder Include="mooc\" />
+    <Folder Include="mooc\week04\" />
+    <Folder Include="mooc\week03\" />
     <Folder Include="mooc\week02\" />
     <Folder Include="mooc\week01\" />
     <Folder Include="options\" />
