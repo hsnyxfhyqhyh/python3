@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\hanoi\hanoi.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="basics\class1.py" />
     <Compile Include="basics\class.py" />
     <Compile Include="basics\exception.py" />
@@ -61,6 +64,11 @@
     </Compile>
     <Compile Include="basics\sqliteTest1.py" />
     <Compile Include="basics\sqliteTest2.py" />
+    <Compile Include="class\Employee.py" />
+    <Compile Include="class\Test.py" />
+    <Compile Include="function\01_function.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Headfirst\chap01\odd.py" />
     <Compile Include="Headfirst\chap01\other.py" />
     <Compile Include="math\statisticsTest.py">
@@ -136,7 +144,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Algorithm\hanoi\" />
     <Folder Include="basics\" />
+    <Folder Include="class\" />
     <Folder Include="db\" />
     <Folder Include="Headfirst\" />
     <Folder Include="Headfirst\chap01\" />
@@ -146,6 +156,8 @@
     <Folder Include="mooc\week03\" />
     <Folder Include="mooc\week02\" />
     <Folder Include="mooc\week01\" />
+    <Folder Include="function\" />
+    <Folder Include="Algorithm\" />
     <Folder Include="options\" />
     <Folder Include="options\output\" />
     <Folder Include="webapps\" />
