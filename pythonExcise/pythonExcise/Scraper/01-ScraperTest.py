@@ -15,17 +15,23 @@ import re
 
 sum =0 
 
-
+# send a request to some url and get a response. 
 r = requests.get("https://book.douban.com/subject/25862578/comments/")
 
+# print the response的 status. 
 print(r.status_code)
 
-soup = BeautifulSoup(r.text, 'lxml').encode("ascii")                # https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+#create a BeautifulSoup object. 
+soup = BeautifulSoup(r.text, 'lxml')               # https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
+# print (soup.title)
+
+#find all p tag with comment-content class attribute. 
 pattern = soup.find_all('p', 'comment-content')
 
-#for item in pattern:
-#    print(item.string)
+# print all the string values of the above found tags. 
+for item in pattern:
+    print(item.string)
 
 
 pattern_s = re.compile('<span class="user-stars allstar(.*?)rating"')

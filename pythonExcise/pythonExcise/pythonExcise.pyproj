@@ -139,6 +139,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pythonExcise.py" />
+    <Compile Include="Scraper\01-ScraperTest.py" />
+    <Compile Include="Scraper\02-BeautifulSoup.py" />
+    <Compile Include="Scraper\03-YifanbookSinglePage.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="webapps\helloflask.py">
       <SubType>Code</SubType>
     </Compile>
@@ -160,6 +165,7 @@
     <Folder Include="Algorithm\" />
     <Folder Include="options\" />
     <Folder Include="options\output\" />
+    <Folder Include="Scraper\" />
     <Folder Include="webapps\" />
     <Folder Include="projectEuler\" />
     <Folder Include="projectEuler\done\" />
@@ -173,6 +179,7 @@
     <Content Include="db\example.db" />
     <Content Include="Headfirst\_readme.txt" />
     <Content Include="options\OptionList.txt" />
+    <Content Include="Scraper\01-scraperTest.html.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
