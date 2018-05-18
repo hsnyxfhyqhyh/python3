@@ -22,9 +22,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Algorithm\hanoi\hanoi.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="basics\class1.py" />
     <Compile Include="basics\class.py" />
     <Compile Include="basics\exception.py" />
@@ -64,13 +61,11 @@
     </Compile>
     <Compile Include="basics\sqliteTest1.py" />
     <Compile Include="basics\sqliteTest2.py" />
-    <Compile Include="class\Employee.py" />
-    <Compile Include="class\Test.py" />
-    <Compile Include="function\01_function.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Headfirst\chap01\odd.py" />
     <Compile Include="Headfirst\chap01\other.py" />
+    <Compile Include="LinearAlgebra\SolveLinearFunctions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="math\statisticsTest.py">
       <SubType>Code</SubType>
     </Compile>
@@ -122,6 +117,7 @@
     <Compile Include="options\Option.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="pdf\PDFMerger.py" />
     <Compile Include="projectEuler\done\Problem0011.py" />
     <Compile Include="projectEuler\done\Problem0009.py" />
     <Compile Include="projectEuler\done\Problem0008.py" />
@@ -139,19 +135,16 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pythonExcise.py" />
-    <Compile Include="Scraper\01-ScraperTest.py" />
-    <Compile Include="Scraper\02-BeautifulSoup.py" />
-    <Compile Include="Scraper\03-YifanbookSinglePage.py">
+    <Compile Include="Scraper\01-ScraperTest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Scraper\02-BeautifulSoup.py" />
     <Compile Include="webapps\helloflask.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Algorithm\hanoi\" />
     <Folder Include="basics\" />
-    <Folder Include="class\" />
     <Folder Include="db\" />
     <Folder Include="Headfirst\" />
     <Folder Include="Headfirst\chap01\" />
@@ -161,11 +154,11 @@
     <Folder Include="mooc\week03\" />
     <Folder Include="mooc\week02\" />
     <Folder Include="mooc\week01\" />
-    <Folder Include="function\" />
-    <Folder Include="Algorithm\" />
+    <Folder Include="LinearAlgebra\" />
+    <Folder Include="pdf\" />
+    <Folder Include="Scraper\" />
     <Folder Include="options\" />
     <Folder Include="options\output\" />
-    <Folder Include="Scraper\" />
     <Folder Include="webapps\" />
     <Folder Include="projectEuler\" />
     <Folder Include="projectEuler\done\" />
@@ -179,6 +172,11 @@
     <Content Include="db\example.db" />
     <Content Include="Headfirst\_readme.txt" />
     <Content Include="options\OptionList.txt" />
+    <Content Include="pdf\file1-1.pdf" />
+    <Content Include="pdf\file1-2.pdf" />
+    <Content Include="pdf\result.pdf" />
+    <Content Include="pdf\sample.pdf" />
+    <Content Include="pdf\sample2.pdf" />
     <Content Include="Scraper\01-scraperTest.html.txt" />
   </ItemGroup>
   <PropertyGroup>
