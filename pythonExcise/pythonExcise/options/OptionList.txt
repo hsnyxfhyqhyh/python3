@@ -6,17 +6,30 @@
 
 ## Friday options -- weekday =4
 
+<<<<<<< .mine
+##Stock=AAPL#CurrentPrice=187#PriceDifference=6#HalfDollarFlag=False#WeekDay=4
+Stock=FB#CurrentPrice=183#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
+Stock=GLD#CurrentPrice=125#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
+=======
 Stock=AAPL#CurrentPrice=175#PriceDifference=6#HalfDollarFlag=False#WeekDay=4
 Stock=FB#CurrentPrice=176#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
 Stock=GLD#CurrentPrice=125#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
+>>>>>>> .r36
 
+<<<<<<< .mine
+Stock=SPY#CurrentPrice=269#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
+Stock=GDX#CurrentPrice=23#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
+=======
 Stock=SPY#CurrentPrice=262#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
 Stock=GDX#CurrentPrice=22#PriceDifference=6#HalfDollarFlag=True#WeekDay=4
+>>>>>>> .r36
 
 ## Wednesday options -- weekday =2
 
+<<<<<<< .mine
+Stock=SPY#CurrentPrice=269#PriceDifference=6#HalfDollarFlag=True#WeekDay=2=======
 Stock=SPY#CurrentPrice=262#PriceDifference=6#HalfDollarFlag=True#WeekDay=2
 
 ## Monday options -- weekday =2
 
-Stock=SPY#CurrentPrice=262#PriceDifference=6#HalfDollarFlag=True#WeekDay=0
+Stock=SPY#CurrentPrice=262#PriceDifference=6#HalfDollarFlag=True#WeekDay=0>>>>>>> .r36
